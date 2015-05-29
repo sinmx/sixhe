@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root version="2.0">
+    <project name="BMP_1_0" />
+    <X86>
+        <item name="uiCHS.ini" source_path="uiCHS.ini" dest_path="..\..\庄家管理平台\uiCHS.ini" />
+        <item name="BMP.exe" source_path="X86\BMP.exe" dest_path="..\..\庄家管理平台\庄家管理平台.exe" />
+        <item name="DuiLib.dll" source_path="X86\DuiLib.dll" dest_path="..\..\庄家管理平台\DuiLib.dll" />
+		<item name="skin.zip" source_path="..\skin\skin.zip" dest_path="..\..\庄家管理平台\skin.zip" />
+    </X86>
+    <X64 />
+</root>

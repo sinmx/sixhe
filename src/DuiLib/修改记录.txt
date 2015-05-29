@@ -1,0 +1,22 @@
+1. 增加对话框窗口框架类CUIDialogFrameWnd
+2. 增加图片播放控件类CPlayImageUI
+3. 修改SelectItem的处理方式，涉及到控件有CComboUI、CListUI
+    原来处理方式：在控件未可见的状态下，SelectItem调用失败。
+    修改后的处理方式：在控件未可见的状态下，SelectItem调用成功，但是不会发送itemselect事件。
+4. CListUI的SetPos中增加选中项可见显示保证功能。
+5. 修改CContainerUI的SetFloatPos处理方式：
+    原来处理方式：在任何情况下，都调用子控件的SetPos，导致当窗口最小化时，父容器大小为0时，通过SetPos使得容器子控件的szXY.cx，szXY.cy（SetPos中处理）为负，从而在SetFloatPos中初始化子控件位置时，以右下角为基点，使控件偏移原始位置
+    修改后的处理方式：只有在父容器控件大小不为0（cx>0&&cy>0）时,才设置子控件大小。
+6. 增加语言切换类CUILanguage
+7. 修改自带的tooltip显示最大宽度为500，原始方式：不指定宽度
+8. 修改图片资源加载方式[已废除，原因官方已更新]：
+   原处理方式：不论指定的的图片路径是什么，若指定ZIP，则在zip路径下根据文件名加载图片；若未指定，则根据设置的资源路径下加载图片；
+   修改后处理方式：若指定的图片路径是全路径，则在全路径下加载图片；否则按原来处理方式处理
+9. 修改zip解压到文件时的属性处理：
+   原处理方式：如果有unix属性的不可写属性或者window下的只读属性，则添加文件只读属性；
+   修改后处理方式：只有存在window下的只读属性，则添加文件只读属性（即移除unix属性的不可写属性的判断）；
+10.增加edit number属性，只允许输入数字
+11.修改CEditUI的默认textPadding={4,3,4,3}为{4,0,4,0}
+12.修改CEditUI关联的窗口创建时就选中文本。
+13.AttachDialog时，m_bFocusNeeded会设置为true，改为设置为false，默认不设置焦点，可以在OnInitDialog中，显示设置某个控件有焦点。
+14.CEditUI新增char通告事件。

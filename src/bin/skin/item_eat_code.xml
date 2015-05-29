@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+	<ListContainerElement name="codeContainer" height="20" >		
+		<HorizontalLayout>
+			<Label name="codeLabel" text="01" width="35" bordersize="1" bordercolor="#ffe0e0e0" align="center"/>
+			<Edit name="buyTotalEdit" width="65" textcolor="#ffa7a6aa" bordercolor="#ffe0e0e0" readonly="true" align="center"/>
+			<Edit name="eatEdit" width="65" number="true" exampletext="输完吃码数后按Enter键保存" bordercolor="#ffaabbcc" bordersize="1" bkcolor="#fffdfdfd" align="center"/>
+			<Edit name="sellEdit" width="65" textcolor="#ffa7a6aa" bordercolor="#ffe0e0e0" readonly="true" align="center"/>
+			<Edit name="profitEdit" width="80" bordercolor="#ffe0e0e0" bordersize="1" readonly="true" align="center"/>
+		</HorizontalLayout>
+	</ListContainerElement>
+</Window>

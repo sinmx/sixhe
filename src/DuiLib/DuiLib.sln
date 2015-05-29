@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DuiLib", "DuiLib\DuiLib.vcproj", "{F65D2DE2-B5B8-4ABD-A95A-2C23DE76F464}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DuiPreview", "DuiPreview\DuiPreview.vcproj", "{98B2AFB4-4FC4-4C0B-B243-7ACD6F17E2F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F65D2DE2-B5B8-4ABD-A95A-2C23DE76F464}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F65D2DE2-B5B8-4ABD-A95A-2C23DE76F464}.Debug|Win32.Build.0 = Debug|Win32
+		{F65D2DE2-B5B8-4ABD-A95A-2C23DE76F464}.Release|Win32.ActiveCfg = Release|Win32
+		{F65D2DE2-B5B8-4ABD-A95A-2C23DE76F464}.Release|Win32.Build.0 = Release|Win32
+		{98B2AFB4-4FC4-4C0B-B243-7ACD6F17E2F9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98B2AFB4-4FC4-4C0B-B243-7ACD6F17E2F9}.Debug|Win32.Build.0 = Debug|Win32
+		{98B2AFB4-4FC4-4C0B-B243-7ACD6F17E2F9}.Release|Win32.ActiveCfg = Release|Win32
+		{98B2AFB4-4FC4-4C0B-B243-7ACD6F17E2F9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

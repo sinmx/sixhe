@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+    <Font name="微软雅黑,雅黑,宋体" size="12" bold="false" default="true" />
+	<Font name="微软雅黑,雅黑,宋体" size="12" bold="true"  />
+    <Font name="微软雅黑,雅黑,宋体" size="18" bold="false"  />
+    <Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+    <Default name="HScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,0,16,16' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,0,34,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,0,52,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,0,70,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,18,16,34' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,18,34,34' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,18,52,34' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,18,70,34' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,36,16,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,36,34,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,36,52,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,36,70,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,54,16,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,54,34,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,54,52,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,54,70,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,72,16,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,72,34,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,72,52,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,72,70,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+	<Default name="Button" value="normalimage=&quot;file='btn_default.png' source='0,0,18,20' corner='3,3,12,14' hole='false' &quot; hotimage=&quot;file='btn_default.png' source='18,0,36,20' corner='3,3,12,14' hole='false' &quot; pushedimage=&quot;file='btn_default.png' source='36,0,54,20' corner='3,3,12,14' hole='false' &quot; disabledimage=&quot;file='btn_default.png' source='54,0,72,20' corner='3,3,12,14' hole='false' &quot; " />
+	<Default name="Edit" value="bordercolor=&quot;#ffaabbcc&quot; bordersize=&quot;1&quot; bkcolor=&quot;#fffdfdfd&quot; focusbordercolor=&quot;#ffb1d2f2&quot;" />
+	<Container bkcolor="#fff4f8fb" inset="10,30,10,10">
+		<HorizontalLayout>
+			<Control />
+			<VerticalLayout width="770">
+				<HorizontalLayout height="20">
+					<Label text="开奖特码" width="55" />
+					<Edit name="winCodeEdit" number="true" width="50" exampletext="按Enter键保存"/>
+					<Control />
+					<Button name="printRewardBtn" text="打印兑奖" width="70" />
+				</HorizontalLayout>
+				<Control height="10" />
+				<VerticalLayout name="configureWinCodeContainer">
+					<HorizontalLayout name="rewardContainer" minheight="25" maxheight="425" width="770">	
+						<List name="rewardList" vscrollbar="true" hscrollbar="false" itemalign="center" header="true">
+							<ListHeader height="25">						
+								<ListHeaderItem width="150" text="下庄" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+								<ListHeaderItem width="120" text="利润" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+								<ListHeaderItem width="100" text="下注总数" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+								<ListHeaderItem width="100" text="回水(千分点)" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+								<ListHeaderItem width="100" text="中奖数" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+								<ListHeaderItem width="100" text="赔率" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+								<ListHeaderItem width="100" text="已兑奖" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+							</ListHeader>
+							<!-- 动态添加 item_reward.xml -->					
+						</List>																						
+					</HorizontalLayout>
+					<Control height="10" />
+					<HorizontalLayout name="selfProfitContainer" height="20">
+						<HorizontalLayout name="selfBuyConfContainer" width="325" visible="false">
+							<Label text="上报时，如果按照您的回水" width="145"/>
+							<Edit name="selfBuyDiscountEdit" width="50" number="true" exampletext="按Enter键重新计算"/>
+							<Label text="赔率" textpadding="2" width="30"/>
+							<Edit name="selfBuyBettingOddsEdit" width="50" number="true" exampletext="按Enter键重新计算" />
+							<Label text="来计算， " textpadding="2" width="50"/>
+						</HorizontalLayout>					
+						<Label name="selfProfitLabel" text="您自己利润1000000"/>
+					</HorizontalLayout>
+					<Control height="10" />
+					<HorizontalLayout height="20">
+						<Label text="如果您已经全部兑奖，您可以" width="160" />
+						<Button name="deleteAllOrderBtn" text="清除所有单子" width="80" />
+						<Label text=" 开始下一期的接单。" />
+					</HorizontalLayout>
+				</VerticalLayout>
+			</VerticalLayout>		
+			<Control />
+		</HorizontalLayout>
+		<HorizontalLayout name="noOrderContainer" bkcolor="#fff4f8fb" visible="false">
+			<Control />
+			<VerticalLayout width="120">
+				<Control />
+				<Button name="orderBtn" text="接单" height="40" font="2"/>
+				<Control />
+			</VerticalLayout>
+			<Control />
+		</HorizontalLayout>
+	</Container>
+</Window>

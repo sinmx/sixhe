@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+	<ListContainerElement name="customerLCE" height="20" >		
+		<HorizontalLayout>
+			<HorizontalLayout width="80" bkcolor="#fff4f8fb" inset="5,1,10,1">				
+				<Button name="deleteBtn" height="18" text="删除" />						
+			</HorizontalLayout >
+			<Edit name="nameEdit" width="150" text="下庄10" align="center" maxchar="10"  bordercolor="#ffaabbcc" bordersize="1" bkcolor="#fffdfdfd" colorhsl="true" focusbordercolor="#ffb1d2f2"/>
+			<Edit name="discountEdit" width="120" text="100" align="center" maxchar="4" number="true" bordercolor="#ffaabbcc" bordersize="1" bkcolor="#fffdfdfd" colorhsl="true" focusbordercolor="#ffb1d2f2"/>
+			<Edit name="bettingOddsEdit" width="100" text="41" align="center" maxchar="3" number="true" bordercolor="#ffaabbcc" bordersize="1" bkcolor="#fffdfdfd" colorhsl="true" focusbordercolor="#ffb1d2f2"/>			
+		</HorizontalLayout>			
+	</ListContainerElement>
+</Window>

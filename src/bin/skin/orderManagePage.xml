@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+    <Font name="微软雅黑,雅黑,宋体" size="12" bold="false" default="true" />
+	<Font name="微软雅黑,雅黑,宋体" size="12" bold="true"  />
+    <Font name="微软雅黑,雅黑,宋体" size="18" bold="false"  />
+	<Font name="微软雅黑,雅黑,宋体" size="10"/>
+    <Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+    <Default name="HScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,0,16,16' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,0,34,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,0,52,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,0,70,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,18,16,34' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,18,34,34' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,18,52,34' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,18,70,34' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,36,16,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,36,34,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,36,52,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,36,70,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,54,16,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,54,34,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,54,52,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,54,70,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,72,16,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,72,34,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,72,52,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,72,70,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+	<Default name="Button" value="normalimage=&quot;file='btn_default.png' source='0,0,18,20' corner='3,3,12,14' hole='false' &quot; hotimage=&quot;file='btn_default.png' source='18,0,36,20' corner='3,3,12,14' hole='false' &quot; pushedimage=&quot;file='btn_default.png' source='36,0,54,20' corner='3,3,12,14' hole='false' &quot; disabledimage=&quot;file='btn_default.png' source='54,0,72,20' corner='3,3,12,14' hole='false' &quot; " />
+	<Default name="Edit" value="bordercolor=&quot;#ffaabbcc&quot; bordersize=&quot;1&quot; bkcolor=&quot;#fffdfdfd&quot; focusbordercolor=&quot;#ffb1d2f2&quot;" />
+	<Container bkcolor="#fff4f8fb" inset="10,10,10,0">
+		<HorizontalLayout name="orderContainer">
+			<Control />
+			<VerticalLayout width="890">
+				<HorizontalLayout height="20">					
+					<Label text="下庄" width="35"/>
+					<Combo name="customerCombo" width="150" normalimage="file='combo_normal.bmp' corner='2,2,24,2'" hotimage="file='combo_over.bmp' corner='2,2,24,2'" pushedimage="file='combo_down.bmp' corner='2,2,24,2'" dropboxsize="0,150" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" float="false" textpadding="4,1,2,1" itemtextpadding="3,0,0,0">
+						<!--item为item_list_label_element.xml-->												
+					</Combo>
+					<Control width="5" />
+					<Button name="addCustomerBtn" text="添加下庄" width="70" />
+					<Control width="10"/>
+					<Button name="deleteOrderBtn" text="删除单子" width="70" />
+					<Control width="10" />
+					<Label name="totalInfoLabel" text="张三总共下注1000000000" textcolor="#ffff0000" width="300" />
+					<Control />
+					<Button name="deleteAllOrderBtn" text="删除所有单子" width="90" />					
+				</HorizontalLayout>
+				<Control height="10" />
+				<HorizontalLayout height="260" width="890">
+					<VerticalLayout width="480">
+						<TileLayout name="codeContainer" columns="4" itemsize="0,25" width="480" height="240">
+							<!--item为item_code.xml，号码从1到48-->							
+						</TileLayout>
+						<HorizontalLayout height="20">							
+							<Control />
+							<HorizontalLayout name="lastCodeContainer" width="120">
+								<!--这里有一个item_code.xml，49号的散码-->						
+							</HorizontalLayout>
+						</HorizontalLayout>
+					</VerticalLayout>
+					<Control width="10" />
+					<RichEdit name="buyLogRichEdit" width="400" text="还没有下注日志" bkcolor="#ffffffff" bordercolor="#ffa0c1d4" vscrollbar="true" bordersize="1" inset="5,5,5,5" autovscroll="true" readonly="true"/>
+				</HorizontalLayout>
+				<Control height="5" />			
+				<VerticalLayout>
+					<HorizontalLayout height="20">
+						<Label text="常规加注" width="60"/>
+						<VerticalLayout>
+							<VerticalLayout />
+								<Control height="1" bkcolor="#ffaabbcc" />
+							<VerticalLayout />
+						</VerticalLayout>
+					</HorizontalLayout>
+					<HorizontalLayout height="20" inset="20,0,0,0">
+						<Label text="单号加注" width="60"/>
+						<Edit name="singleBuyEdit" width="550" exampletext="示例：0520 30-500 表示：05加注20 30减注500。按Enter键下注。"/>	
+						<Label name="singleBuyWrongLabel" width="20" height="20" visible="false" bkimage="file='buy_status.png' source='2,2,22,22'" />						
+					</HorizontalLayout>
+					<Control height="5" />
+					<HorizontalLayout height="20" inset="20,0,0,0">
+						<Label text="特段加注" width="60"/>
+						<Edit name="intervalStartEdit" width="30" number="true" align="center"/>
+						<Label text="到" width="20" textpadding="3,0,3,0" />
+						<Edit name="intervalEndEdit" width="30" number="true" align="center"/>
+						<Label text="每个加注" width="65" textpadding="10,0,3,0" />
+						<Edit name="intervalBuyEdit" width="80" exampletext="减注请在最前面加上减号，按Enter键下注"/>
+						<Control width="40" />
+						<Label text="顺号加注" width="60"/>
+						<Label text="开始号码" width="50" />
+						<Edit name="startCodeEdit" width="50" number="true" />
+						<Control width="10" />
+						<Label text="加注数" width="40" />
+						<Edit name="sequenceBuyEdit" width="80" exampletext="减注请在最前面加上减号，按Enter键下注" />
+					</HorizontalLayout>
+					<Control height="5" />
+					<HorizontalLayout height="20" inset="20,0,0,0">
+						<Label text="等额加注" width="60"/>	
+						<Label text="号码" width="30" />
+						<Edit name="equalCodeEdit" width="300" exampletext="多个号码使用空格分开，如05 10"/>
+						<Label name="equalBuyWrongLabel" width="20" height="20" visible="false" bkimage="file='buy_status.png' source='2,2,22,22'" />	
+						<Control width="20" />
+						<Label text="每个加注数" width="65" />
+						<Edit name="equalBuyEdit" width="80" exampletext="减注请在最前面加上减号，按Enter键下注" />
+					</HorizontalLayout>
+					<Control height="5" />
+					<HorizontalLayout height="20">
+						<Label text="分组加注" width="60"/>
+						<VerticalLayout>
+							<VerticalLayout />
+								<Control height="1" bkcolor="#ffaabbcc" />
+							<VerticalLayout />
+						</VerticalLayout>
+					</HorizontalLayout>
+					<VerticalLayout inset="20,0,0,0">
+						<HorizontalLayout height="125">
+							<VerticalLayout width="650" height="125">
+								<TileLayout name="codeGroupContainer" columns="12" width="600" height="100">
+									<!--48个item_group.xml-->
+								</TileLayout>
+								<TileLayout name="lastGroupContainer" columns="13" width="650" height="25">
+									<!--13个item_group.xml-->						
+								</TileLayout>
+							</VerticalLayout>
+							<HorizontalLayout name="recentContainer" visible="false">
+								<Control width="5" />
+								<Control width="1" bkcolor="#ffaabbcc" />
+								<Control width="10" />
+								<VerticalLayout width="200">
+									<Label text="最近加注分组" height="25"/>
+									<TileLayout name="recentGroupContainer" columns="4" height="100" userdata="16">
+									<!--最多可放16个item_group.xml，16存放在userdata中-->
+									</TileLayout>
+								</VerticalLayout>
+							</HorizontalLayout>
+						</HorizontalLayout>
+						<Control height="5" />
+						<HorizontalLayout height="20">
+							<Control width="270"/>	
+							<Label text="每个加注数" width="75" />
+							<Edit name="groupBuyEdit" width="80" exampletext="减注请在最前面加上减号，按Enter键下注" />
+							<Control />						
+						</HorizontalLayout>
+					</VerticalLayout>
+				</VerticalLayout>
+			</VerticalLayout>
+			<Control />
+		</HorizontalLayout>
+		<HorizontalLayout name="noCustomerContainer" bkcolor="#fff4f8fb" visible="false">
+			<Control />
+			<VerticalLayout width="150">
+				<Control />
+				<Button name="addCustomer" text="添加下庄" height="40" font="2"/>
+				<Control />
+			</VerticalLayout>
+			<Control />
+		</HorizontalLayout>
+	</Container>	
+</Window>

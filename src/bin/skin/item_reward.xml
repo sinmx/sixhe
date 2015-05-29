@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+	<HorizontalLayout height="20">
+		<Label name="customerLabel" width="150" bordercolor="#ffaabbcc" bordersize="1" align="center"/>
+		<Label name="profitLabel" width="120" bordercolor="#ffaabbcc" bordersize="1" align="center"/>					
+		<Label name="buyLabel" width="100" bordercolor="#ffaabbcc" bordersize="1" align="center"/>
+		<Label name="discountLabel" width="100" bordercolor="#ffaabbcc" bordersize="1" align="center"/>
+		<Label name="winLabel" width="100" bordercolor="#ffaabbcc" bordersize="1" align="center"/>
+		<Label name="bettingOddsLabel" width="100" bordercolor="#ffaabbcc" bordersize="1" align="center"/>
+		<Combo name="alreadyRewardCombo" width="100" itemalign="center" normalimage="file='combo_normal.bmp' corner='2,2,24,2'" hotimage="file='combo_over.bmp' corner='2,2,24,2'" pushedimage="file='combo_down.bmp' corner='2,2,24,2'" dropboxsize="0,150" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" float="false" textpadding="4,1,2,1">
+			<!--item为ListLabelElement-->
+			<ListLabelElement text="是"/>
+			<ListLabelElement text="否"/>								
+		</Combo>
+	</HorizontalLayout>
+</Window>

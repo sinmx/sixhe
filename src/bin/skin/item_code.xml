@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+	<HorizontalLayout height="20" width="120" inset="0,0,10,0">
+		<Label name="nameLabel" text="01蛇" width="30"  />
+		<Edit name="moneyEdit" number="true" exampletext="按Enter键下注"/>
+	</HorizontalLayout>
+</Window>

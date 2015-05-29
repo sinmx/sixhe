@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+	<Option name="codeGroupOpt" text="蛇" height="25" textpadding="20,0,0,0" align="left"  normalimage="file='checkbox_normal.png' dest='0,5,15,20'" hotimage="file='checkbox_over.png' dest='0,5,15,20'" selectedimage="file='checkbox_check.png' dest='0,5,15,20'" disabledimage="file='checkbox_normal_disable.png' dest='0,5,15,20'" />
+</Window>

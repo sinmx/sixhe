@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+	<ListContainerElement height="20" >		
+		<HorizontalLayout name="profitItem">
+			<Label name="codeLabel" text="01" width="50" bordersize="1" bordercolor="#ffaabbcc" align="center"/>
+			<Label name="profitLabel" width="200" bordersize="1" bordercolor="#ffaabbcc" align="center"/>			
+		</HorizontalLayout>			
+	</ListContainerElement>
+</Window>

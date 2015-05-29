@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+    <Font name="微软雅黑,雅黑,宋体" size="12" bold="false" default="true" />
+	<Font name="微软雅黑,雅黑,宋体" size="12" bold="true"  />
+    <Font name="微软雅黑,雅黑,宋体" size="18" bold="false"  />
+    <Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+    <Default name="HScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,0,16,16' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,0,34,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,0,52,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,0,70,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,18,16,34' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,18,34,34' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,18,52,34' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,18,70,34' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,36,16,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,36,34,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,36,52,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,36,70,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,54,16,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,54,34,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,54,52,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,54,70,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,72,16,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,72,34,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,72,52,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,72,70,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+	<Default name="Button" value="normalimage=&quot;file='btn_default.png' source='0,0,18,20' corner='3,3,12,14' hole='false' &quot; hotimage=&quot;file='btn_default.png' source='18,0,36,20' corner='3,3,12,14' hole='false' &quot; pushedimage=&quot;file='btn_default.png' source='36,0,54,20' corner='3,3,12,14' hole='false' &quot; disabledimage=&quot;file='btn_default.png' source='54,0,72,20' corner='3,3,12,14' hole='false' &quot; " />
+	<Default name="Edit" value="bordercolor=&quot;#ffaabbcc&quot; bordersize=&quot;1&quot; bkcolor=&quot;#fffdfdfd&quot; focusbordercolor=&quot;#ffb1d2f2&quot;" />
+	<Container bkcolor="#fff4f8fb" inset="10,20,10,10" >	
+		<HorizontalLayout>
+			<Control />
+			<VerticalLayout width="930">
+				<HorizontalLayout height="20">
+					<Label text="平均回水(千分点)" width="100" />
+					<Edit name="avgDiscountEdit" width="50" number="true" exampletext="按Enter键保存"/>
+					<Control width="20" />
+					<Label text="平均赔率" width="55" />
+					<Edit name="avgBettingOddsEdit" width="40" number="true" exampletext="按Enter键保存"/>
+					<Control width="20"/>
+					<Button name="cancelEatBtn" text="取消吃码" width="70"/>
+					<Control width="10" />				
+					<Button name="printSellBtn" text="打印上报" width="70"/>
+					<Control width="10" />
+					<Label name="maxMinProfitLabel" text="开奖号码为16亏损最多达100000000 开奖号码为20赚得最多达100000000" textcolor="#ffff0000"/>
+				</HorizontalLayout>
+				<Control height="5" />
+				<HorizontalLayout height="365" width="930">
+					<VerticalLayout width="620">
+						<HorizontalLayout height="345">
+							<List name="firstColumnList" width="310" vscrollbar="true" hscrollbar="false" itemalign="center" header="true">
+								<ListHeader height="25">						
+									<ListHeaderItem width="35" text="号码" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+									<ListHeaderItem width="65" text="下注数" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+									<ListHeaderItem width="65" text="吃码数" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+									<ListHeaderItem width="65" text="上报数" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/><ListHeaderItem width="80" text="利润" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>							
+								</ListHeader>
+								<!-- 动态添加16个item_eat_code.xml, 号码从1到16-->							
+							</List>
+							<List name="secondColumnList" width="310" vscrollbar="true" hscrollbar="false" itemalign="center" header="true">
+								<ListHeader height="25">						
+									<ListHeaderItem width="35" text="号码" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+									<ListHeaderItem width="65" text="下注数" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+									<ListHeaderItem width="65" text="吃码数" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+									<ListHeaderItem width="65" text="上报数" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/><ListHeaderItem width="80" text="利润" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>							
+								</ListHeader>
+								<!-- 动态添加16个item_eat_code.xml, 号码从17到32 -->							
+							</List>
+						</HorizontalLayout>
+						<HorizontalLayout height="20" inset="0,4,0,0">
+							<Label name="totalInfoLabel" text="下注总数1000000000   吃码总数1000000000   上报总数1000000000"/>
+						</HorizontalLayout>
+					</VerticalLayout>
+					<List name="thirdColumnList" width="310" vscrollbar="true" hscrollbar="false" itemalign="center" header="true">
+						<ListHeader height="25">						
+							<ListHeaderItem width="35" text="号码" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+							<ListHeaderItem width="65" text="下注数" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+							<ListHeaderItem width="65" text="吃码数" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+							<ListHeaderItem width="65" text="上报数" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+							<ListHeaderItem width="80" text="利润" sepwidth="1" sepimage="list_header_sep.png" normalimage="list_header_bk.png" dragable="false"/>
+						</ListHeader>
+						<!-- 动态添加17个item_eat_code.xml, 号码从33到49 -->							
+					</List>					
+				</HorizontalLayout>
+				<Control height="10" />
+				<HorizontalLayout height="130">
+					<VerticalLayout>
+						<HorizontalLayout height="20">
+							<Label text="吃码" width="30"/>
+							<VerticalLayout>
+								<Control />
+								<Control height="1" bkcolor="#ffaabbcc" />
+								<Control />
+							</VerticalLayout>
+						</HorizontalLayout>
+						<HorizontalLayout height="95">
+							<Control />
+							<VerticalLayout height="95" width="480">
+								<Label name="suggestionLabel" text="建议平均吃码**至少可赚**最多可赚****" textcolor="#ffff0000" height="20" />
+								<Control height="5" />
+								<HorizontalLayout height="20">									
+									<Label text="平均吃码" width="60" />
+									<Edit name="avgEatEdit" number="true" exampletext="按Enter键吃码" width="60" />
+								</HorizontalLayout>
+								<Control height="5" />
+								<HorizontalLayout height="20">
+									<Label text="如果打算最多亏损" width="100" />
+									<Edit name="calcEatEdit" number="true" exampletext="按Enter键计算" width="60" />
+									<Label text=" 可以平均吃码 " width="80" />
+									<Label name="calcAvgEatLabel" width="60" />
+								</HorizontalLayout>								
+							</VerticalLayout>
+							<Control />
+						</HorizontalLayout>
+					</VerticalLayout>											
+				</HorizontalLayout>
+			</VerticalLayout>			
+			<Control />
+		</HorizontalLayout>
+		<HorizontalLayout name="noOrderContainer" bkcolor="#fff4f8fb" visible="false">
+			<Control />
+			<VerticalLayout width="120">
+				<Control />
+				<Button name="orderBtn" text="接单" height="40" font="2"/>
+				<Control />
+			</VerticalLayout>
+			<Control />
+		</HorizontalLayout>
+	</Container>	
+</Window>
