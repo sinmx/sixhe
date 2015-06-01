@@ -19,7 +19,7 @@ CString CCodeGroup::Name() const
 {
 	static CString strName[] = {
 		_T(""),
-		_T("马"),_T("蛇"), _T("龙"), _T("兔"), _T("虎"), _T("牛"), _T("鼠"), _T("猪"), _T("狗"), _T("鸡"), _T("猴"), _T("羊"), 
+		_T("羊"),_T("马"),_T("蛇"), _T("龙"), _T("兔"), _T("虎"), _T("牛"), _T("鼠"), _T("猪"), _T("狗"), _T("鸡"), _T("猴"),  
 		_T("尾0"), _T("尾1"), _T("尾2"), _T("尾3"), _T("尾4"), _T("尾5"), _T("尾6"), _T("尾7"), _T("尾8"), _T("尾9"), _T("大"), _T("小"),
 		_T("头0"), _T("头1"), _T("头2"), _T("头3"), _T("头4"), _T("单"), _T("双"), _T("红"), _T("蓝"), _T("绿"), _T("家禽"), _T("野兽"),
 		_T("红大"), _T("红小"), _T("蓝大"), _T("蓝小"), _T("绿大"), _T("绿小"), _T("红单"), _T("红双"), _T("蓝单"), _T("蓝双"), _T("绿单"), _T("绿双"),
@@ -35,7 +35,7 @@ vector<CCode> CCodeGroup::ShengXiaoCode(int nID) const
 	vector<CCode> result;
 	for (int i=0; i<=4; i++)
 	{
-		int nCode = 12*i+(nID-GROUPID_MA+1);
+		int nCode = 12*i+(nID-GROUPID_YANG+1);
 		if (nCode <= COrder::CODE_NUMBER)
 		{
 			CCode code;
@@ -463,7 +463,7 @@ vector<CCode> CCodeGroup::Code() const
 {
 	vector<CCode> result;
 	
-	if (m_nID>=GROUPID_MA && m_nID<=GROUPID_YANG)  //生肖
+	if (m_nID>=GROUPID_YANG && m_nID<=GROUPID_HOU)  //生肖
 	{
 		result = ShengXiaoCode(m_nID);
 	}

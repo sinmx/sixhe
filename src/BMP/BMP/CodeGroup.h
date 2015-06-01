@@ -10,18 +10,19 @@
 //·Ö×éID¶¨Òå
 #define GROUPID_MIN				1				//·Ö×é×îÐ¡Öµ
 
-#define GROUPID_MA				1				//Âí
-#define GROUPID_SHE				2				//Éß
-#define GROUPID_LONG			3				//Áú
-#define GROUPID_TU				4				//ÍÃ
-#define GROUPID_HU				5				//»¢
-#define GROUPID_NIU				6				//Å£
-#define GROUPID_SHU				7				//Êó
-#define GROUPID_ZHU				8				//Öí
-#define GROUPID_GOU				9				//¹·
-#define GROUPID_JI				10				//¼¦
-#define GROUPID_HOU				11				//ºï
-#define GROUPID_YANG			12				//Ñò
+#define GROUPID_YANG			1				//Ñò
+#define GROUPID_MA				2				//Âí
+#define GROUPID_SHE				3				//Éß
+#define GROUPID_LONG			4				//Áú
+#define GROUPID_TU				5				//ÍÃ
+#define GROUPID_HU				6				//»¢
+#define GROUPID_NIU				7				//Å£
+#define GROUPID_SHU				8				//Êó
+#define GROUPID_ZHU				9				//Öí
+#define GROUPID_GOU				10				//¹·
+#define GROUPID_JI				11				//¼¦
+#define GROUPID_HOU				12				//ºï
+
 
 #define GROUPID_TAIL0			13				//Î²0
 #define GROUPID_TAIL1			14				//Î²1
